@@ -1,0 +1,25 @@
+
+Install scapy using normal user and also as a root user.
+
+pip3 install scapy
+sudo su
+pip3 install scapy
+
+sudo apt-get install aircrack-ng
+
+
+#########################################################
+
+References:
+https://scapy.readthedocs.io/en/latest/installation.html#platform-specific-instructions
+
+https://github.com/cb-314/scapy-rssi/blob/master/scapy-rssi.py
+
+
+
+
+sudo port -d selfupdate
+sudo port install scapy
+
+# libpcap actually automatically got installed as a dependency when scapy was being installing.
+sudo port install libpcap
